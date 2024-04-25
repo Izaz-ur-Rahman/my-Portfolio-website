@@ -9734,3 +9734,10 @@ textarea.form-control {
     display: block;
   }
 }
+
+/* For screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+  .one-third.js-fullheight.order-md-last.img img {
+    margin-top: 190px; /* Adjust the margin top as needed */
+  }
+}
